@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "API-Diarista Fácil",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bergsonjr/diaristafacil-api.git"
+  },
+  "author": "Bergson Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bergsonjr/diaristafacil-api/issues"
+  },
+  "homepage": "https://github.com/Bergsonjr/diaristafacil-api#readme"
+}
