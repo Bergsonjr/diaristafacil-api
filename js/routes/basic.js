@@ -14,6 +14,12 @@ routes.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider,
         templateUrl: 'templates/sign-in/forgot.html'
     });
 
+    $stateProvider.state('register', {
+        url: '/register',
+        noAuthenticate: false,
+        templateUrl: 'templates/sign-in/register.html'
+    });
+
     $stateProvider.state('app', {
         url: '/app',
         abstract: true,
