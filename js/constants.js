@@ -1,0 +1,1 @@
+/* jshint strict: false */var constants = angular.module('app.constant', []);constants.constant('ENV',undefined);
